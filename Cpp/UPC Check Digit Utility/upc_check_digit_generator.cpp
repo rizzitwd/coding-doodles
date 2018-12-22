@@ -5,7 +5,7 @@ using namespace std;
 
 /*
  * This code is NOT intended to be readable.
- * It was made with the goal of taking up very little space,
+ * It was made with the goal of being short,
  * as opposed to drawing it out a bit more for the sake of readability.
  * 
  * Read in an 11-digit UPC code and generate the check digit for this code. 
