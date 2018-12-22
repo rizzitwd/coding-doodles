@@ -1,4 +1,8 @@
 /*
+ * This code is NOT intended to be readable.
+ * It was made with the goal of taking up very little space,
+ * as opposed to drawing it out a bit more for the sake of readability.
+ *
  * Read in a 12 digit number and use the check digit to verify if it is a valid UPC code or not.
 */
 
