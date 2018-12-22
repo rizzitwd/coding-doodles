@@ -19,6 +19,7 @@ using namespace std;
  * 	Iterate over each index of the string.
  * 	If the digit is at an odd numbered index, add the number multiplied by 3 to o.
  * 	If at an even numbered index, just add the number to o.
+ *	This appears reversed because we start at index 0, which is even.
  * 	I use " x.at(i)-'0' " to convert the character index returned by x.at(i) to an integer so I can add it to o.
  * - Output
  * 	Read the UPC code given at the start of the program to cout,
