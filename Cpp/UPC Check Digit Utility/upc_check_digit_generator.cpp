@@ -34,7 +34,7 @@ int main(){
 		x.insert(0,"0");
 	int i=0,o=0;
 	for(;i<l-1;++i)
-		o+=i%2==0?(x.at(i)-'0')*3:x.at(i)-'0';
-	cout << x << '+' << (o%10==0?0:10-o%10) << endl;
+		o += (i % 2 == 0 ? (x.at(i)-'0')*3 : x.at(i)-'0');
+	cout << x << '+' << (o % 10 == 0 ? 0 : 10-o%10) << endl;
 	return 0;
 }
