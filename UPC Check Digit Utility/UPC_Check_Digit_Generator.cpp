@@ -1,8 +1,3 @@
-#include <iostream>
-#include <string>
-
-using namespace std;
-
 /*
  * Read in an 11-digit UPC code and generate the check digit for this code. 
  * 
@@ -21,6 +16,11 @@ using namespace std;
  * 		followed by '+', then the check digit.
  * 		If o % 10 is 0, the check digit is 0. Otherwise, it is 10 - ( o % 10 )
 */
+
+#include <iostream>
+#include <string>
+
+using namespace std;
 
 int main(){
 	const int l = 12; // Standard 12 digit UPC code, including check digit.
